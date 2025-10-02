@@ -10,7 +10,7 @@
 
 ### 2. 데이터셋 확보
 
-![데이터셋 확보 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+![데이터셋 확보 image](https://github.com/JungJiSung377/ACK2025_Mineral_distribution_prediction/commit/ff518b22666aa3881a7d7a16e5046b69ac945511)
 
   * 재료: 미국 지질조사국(U.S. Geological Survey, USGS) 2019-643-FA 프로젝트의 해저 퇴적물
   * 포함: 라인 스캔 코어 이미지(약 33.6 GB), MSCL(Multi-Sensor Core Logger) 물성 데이터
