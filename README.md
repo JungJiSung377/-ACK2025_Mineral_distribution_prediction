@@ -51,7 +51,7 @@
  * 상단 세 개의 그래프: HRNet-DeepLabV3+ 모델 예측 결과 / 하단 세 개의 그래프: ResNet-18 모델 예측 결과
  * HRNet-DeepLabV3+ 모델이 고해상도와 저해상도 특징을 반복적으로 교환하고 다중 규모 정보를 활용하여 국소적 변화를 안정적으로 포착
 
-![회귀 성능평가 결과 image]
+![회귀 성능평가 결과 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image5.png)
 
  * MSE: 예측값과 실제값의 차이를 제곱한 값의 평균 / R^2은 모델 변동성 지표
  * HRNet-DeepLabV3+가 ResNet-18 모델에 비해 우수한 성능을 나타냄
