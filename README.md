@@ -10,7 +10,7 @@
 
 ### 2. 데이터셋 확보
 
-![데이터셋 확보 image](https://github.com/JungJiSung377/ACK2025_Mineral_distribution_prediction/commit/ff518b22666aa3881a7d7a16e5046b69ac945511)
+![데이터셋 확보 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image2.png)
 
   * 재료: 미국 지질조사국(U.S. Geological Survey, USGS) 2019-643-FA 프로젝트의 해저 퇴적물
   * 포함: 라인 스캔 코어 이미지(약 33.6 GB), MSCL(Multi-Sensor Core Logger) 물성 데이터
@@ -29,7 +29,7 @@
 
 ### 4. ResNet-18 Model
 
-![ResNet-18 Model image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+![ResNet-18 Model image]
 
  * Residual Learning 구조와 Skip Connection을 적용해 깊은 신경망의 기울기 소실을 완화한 합성곱 신경망(CNN)
  * 사전 학습된 가중치를 기반으로 시추 코어 이미지(200×200픽셀)를 입력받아 3가지 물성값을 회귀 예측하도록 구성
@@ -38,7 +38,7 @@
 
 ### 5. HRNet-DeepLabV3+ Model
 
-![HRNet-DeepLabV3+ Model image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+![HRNet-DeepLabV3+ Model image]
 
  * 여러 해상도의 이미지를 동시에 처리하며, 해상도 간의 반복적 정보 교환을 통해 고해상도 표현을 유지
  * HRNet을 백본(Backbone)으로 사용하여 다중 규모 특징을 추출한 후, DeepLabV3+의 ASPP(Atrous Spatial Pyramid Pooling) 모듈을 통해 다양한 수용 영역 정보를 통합한 뒤에 고수준, 저수준 피처를 결합해 정밀한 경계를 복원
@@ -46,12 +46,12 @@
 
 ### 6. 예측 및 회귀 성능평가 결과
 
-![예측 결과 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+![예측 결과 image]
 
  * 상단 세 개의 그래프: HRNet-DeepLabV3+ 모델 예측 결과 / 하단 세 개의 그래프: ResNet-18 모델 예측 결과
  * HRNet-DeepLabV3+ 모델이 고해상도와 저해상도 특징을 반복적으로 교환하고 다중 규모 정보를 활용하여 국소적 변화를 안정적으로 포착
 
-![회귀 성능평가 결과 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+![회귀 성능평가 결과 image]
 
  * MSE: 예측값과 실제값의 차이를 제곱한 값의 평균 / R^2은 모델 변동성 지표
  * HRNet-DeepLabV3+가 ResNet-18 모델에 비해 우수한 성능을 나타냄
@@ -59,7 +59,7 @@
 
 # 시추 코어 내 광물 함량 예측
 
-![시추 코어 내 광물 함량 예측 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+![시추 코어 내 광물 함량 예측 image]
 
  * 1) 영역 군집화(SLIC) : 유사 색상/공간 영역으로 1차 분할
  * 2) 정밀 분할(SAM) : 2차 정밀 분할/다수의 후보군 생성
