@@ -29,7 +29,7 @@
 
 ### 4. ResNet-18 Model
 
-![ResNet-18 Model image]
+![ResNet-18 Model image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
 
  * Residual Learning 구조와 Skip Connection을 적용해 깊은 신경망의 기울기 소실을 완화한 합성곱 신경망(CNN)
  * 사전 학습된 가중치를 기반으로 시추 코어 이미지(200×200픽셀)를 입력받아 3가지 물성값을 회귀 예측하도록 구성
