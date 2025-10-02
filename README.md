@@ -1,6 +1,6 @@
 [README.md](https://github.com/user-attachments/files/21564783/README.md)
-# Core-sample-analyze
-시추 코어 이미지 분석
+# Prediction of Mineral Distribution Based on Drilling Core Color
+시추 코어 색상 기반 광물 분포 예측
 
 # 1. SAM-YOLO.py
    ![Figure_1](https://github.com/user-attachments/assets/098c056b-7e4e-4444-a26e-0f59639392ac)
