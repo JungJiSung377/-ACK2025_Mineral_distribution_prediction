@@ -59,7 +59,7 @@
 
 # 시추 코어 내 광물 함량 예측
 
-![시추 코어 내 광물 함량 예측 image]
+![시추 코어 내 광물 함량 예측 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image6.png)
 
  * 1) 영역 군집화(SLIC) : 유사 색상/공간 영역으로 1차 분할
  * 2) 정밀 분할(SAM) : 2차 정밀 분할/다수의 후보군 생성
