@@ -8,7 +8,7 @@
 현재 전 세계적으로 국가 간 전략 광물 확보 경쟁이 치열해지며, 기존 시추 코어 분석 방식의 낮은 정밀도와 비효율성을 극복할 자동화된 AI 모델의 개발이 요구되었다. 따라서, 본 프로젝트는 시추 코어 이미지로부터 물성값과 광물 함량을 정량적으로 예측하는 2단계 딥러닝 회귀 모델을 개발하여 자원 탐사 효율을 획기적으로 높이고 국가적 자원 경쟁력 강화에 이바지 하고자 하였다.
 
 
-### 2. 데이터셋 확보
+### 2. 데이터셋
 
 ![데이터셋 확보 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image2.png)
 
@@ -46,7 +46,7 @@
 
 ### 6. 예측 및 회귀 성능평가 결과
 
-![예측 결과 image]
+![예측 결과 image](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image4.png)
 
  * 상단 세 개의 그래프: HRNet-DeepLabV3+ 모델 예측 결과 / 하단 세 개의 그래프: ResNet-18 모델 예측 결과
  * HRNet-DeepLabV3+ 모델이 고해상도와 저해상도 특징을 반복적으로 교환하고 다중 규모 정보를 활용하여 국소적 변화를 안정적으로 포착
