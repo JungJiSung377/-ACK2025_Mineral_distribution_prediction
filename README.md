@@ -1,6 +1,6 @@
 [README.md](https://github.com/user-attachments/files/21564783/README.md)
 # **Prediction of Mineral Distribution Based on Drilling Core Color**
-## **시추 코어 색상 기반 광물 분포 예측**
+**시추 코어 색상 기반 광물 분포 예측**
 
 
 ### 1. 요약
@@ -37,4 +37,16 @@
 
 
 ### 5. HRNet-DeepLabV3+ Model
+
+![데이터셋 확보 이미지](https://github.com/JungJiSung377/-ACK2025_Mineral_distribution_prediction/blob/main/image.png)
+
+ * 여러 해상도의 이미지를 동시에 처리하며, 해상도 간의 반복적 정보 교환을 통해 고해상도 표현을 유지
+ * HRNet을 백본(Backbone)으로 사용하여 다중 규모 특징을 추출한 후, DeepLabV3+의 ASPP(Atrous Spatial Pyramid Pooling) 모듈을 통해 다양한 수용 영역 정보를 통합한 뒤에 고수준, 저수준 피처를 결합해 정밀한 경계를 복원
+
+
+
+
+
+
+
 
