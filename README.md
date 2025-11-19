@@ -1,6 +1,7 @@
 [README.md](https://github.com/user-attachments/files/21564783/README.md)
 # **Prediction of Mineral Distribution Based on Drilling Core Color**
 **주제: 시추 코어 색상 기반 광물 분포 예측**
+
 저자: 정지성, 손형오, 조소현, 오준석, 권용현, 김영균
 
 ### 1. 요약
